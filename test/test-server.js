@@ -5,7 +5,7 @@ const app = require('../server');
 
 describe('GET /', function () {
   it('responds with home page', function (done) {
-
+//adding a new note for external
     //specify the url to be intercepted
     nock("http://localhost:8082")
       //define the method to be intercepted
